@@ -7,7 +7,7 @@ function NOTIFICATIONSPAGE() {
     NOTIFICATIONSDIV.style.top='0';
     NOTIFICATIONSDIV.innerHTML=`
         <header class="category-themes-wrapper">
-            <img class="icons" id="back-icon"  src="/icons/arrow-left.png" onclick='HOMEPAGE()' />
+            <img class="icons" id="back-icon"  src="https://yagetpastry.github.io/YagetPastry/icons/arrow-left.png" onclick='HOMEPAGE()' />
             <h3 id="themes">Notifications</h3>
         </header>
 

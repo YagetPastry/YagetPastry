@@ -31,7 +31,7 @@ function CATEGORYPAGE() {
                 DATAHOLDERDIV.style.top='0' 
                 DATAHOLDERDIV.innerHTML=`
                     <header class="category-themes-wrapper">
-                        <img class="icons" id="back-icon" src="/icons/arrow-left.png" onclick='closedataholderdiv()' />
+                        <img class="icons" id="back-icon" src="https://yagetpastry.github.io/YagetPastry/icons/arrow-left.png" onclick='closedataholderdiv()' />
                         <h3 id="themes">${element.categoryname}</h3>
                     </header>
                     <div class="recipes-container"></div>

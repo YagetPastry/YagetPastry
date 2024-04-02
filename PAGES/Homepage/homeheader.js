@@ -1,8 +1,8 @@
 const homeheaderData=`
     <div class="home-top-nav">
-        <img id="profile-icon" class="icons" onclick='USERACCOUNTPAGE()' src="../../icons/profilepurple.png" />
+        <img id="profile-icon" class="icons" onclick='USERACCOUNTPAGE()' src="https://yagetpastry.github.io/YagetPastry/icons/profilepurple.png" />
         <h2 id="greeting-text">${localStorage.getItem('Time')}</h2>
-        <img id="notification-icon" class="icons" onclick='NOTIFICATIONSPAGE()' src="../../icons/notificationpurple.png" />
+        <img id="notification-icon" class="icons" onclick='NOTIFICATIONSPAGE()' src="https://yagetpastry.github.io/YagetPastry/icons/notificationpurple.png" />
     </div>
 
     <div class="welcoming-text-wrapper">
@@ -10,10 +10,10 @@ const homeheaderData=`
     </div>
     
     <div class="home-nav">
-        <a href="#home-div" class="nav-icons"><img class="nav-icons" onclick='closeuseraccountdrawer()' src="../../icons/home.png" /></a>
-        <a href="#category-div" class="nav-icons"><img class="nav-icons" onclick='closeuseraccountdrawer()' src="../../icons/category.png" /></a>
-        <a href="#liked-div" class="nav-icons"><img class="nav-icons" onclick='closeuseraccountdrawer()' src="../../icons/heart.png" /></a>
-        <a href="#healthtips-div" class="nav-icons"><img class="nav-icons" onclick='closeuseraccountdrawer()' src="../../icons/stethoscope.png" /></a>
+        <a href="#home-div" class="nav-icons"><img class="nav-icons" onclick='closeuseraccountdrawer()' src="https://yagetpastry.github.io/YagetPastry/icons/home.png" /></a>
+        <a href="#category-div" class="nav-icons"><img class="nav-icons" onclick='closeuseraccountdrawer()' src="https://yagetpastry.github.io/YagetPastry/icons/category.png" /></a>
+        <a href="#liked-div" class="nav-icons"><img class="nav-icons" onclick='closeuseraccountdrawer()' src="https://yagetpastry.github.io/YagetPastry/icons/heart.png" /></a>
+        <a href="#healthtips-div" class="nav-icons"><img class="nav-icons" onclick='closeuseraccountdrawer()' src="https://yagetpastry.github.io/YagetPastry/icons/stethoscope.png" /></a>
     </div>
 `;
 

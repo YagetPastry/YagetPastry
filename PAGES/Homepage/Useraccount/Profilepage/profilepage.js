@@ -24,7 +24,7 @@ function PROFILEPAGE() {
 
             const BACKBTNEDITPROFILE=document.createElement('img')
             BACKBTNEDITPROFILE.classList.add('close-edit-profilebtn')
-            BACKBTNEDITPROFILE.src='/icons/arrow-left.png'
+            BACKBTNEDITPROFILE.src='https://yagetpastry.github.io/YagetPastry/icons/arrow-left.png'
             BACKBTNDIV.append(BACKBTNEDITPROFILE)
 
             BACKBTNDIV.addEventListener('click',()=>{
@@ -48,7 +48,7 @@ function PROFILEPAGE() {
             const EDITPROFILEIMAGE=document.createElement('button')
             EDITPROFILEIMAGE.classList.add('edit-profile-image-btn')
             EDITPROFILEIMAGE.innerHTML=`
-                <img class="icons" id="editprofileimage-icon" src="/icons/pencil_purple.png"/>
+                <img class="icons" id="editprofileimage-icon" src="https://yagetpastry.github.io/YagetPastry/icons/pencil_purple.png"/>
                 <p id="editprofile-pic-text">Edit Profile Picture</p>
             `;
             PROFILE.append(EDITPROFILEIMAGE)
@@ -137,16 +137,16 @@ function PROFILEPAGE() {
             const CHANGEPASSWORDDIV=document.createElement('button')
             CHANGEPASSWORDDIV.classList.add('changepassword-div')
             CHANGEPASSWORDDIV.innerHTML=`
-                <img class="icons" id="key-password-icon" src="/icons/key.png" />
+                <img class="icons" id="key-password-icon" src="https://yagetpastry.github.io/YagetPastry/icons/key.png" />
                 <p id="title-changepassword">Change Password</p>
-                <img class="icons" id="open-passwordpage-icon" src="/icons/arrow-left.png" />
+                <img class="icons" id="open-passwordpage-icon" src="https://yagetpastry.github.io/YagetPastry/icons/arrow-left.png" />
             `
             USERPROFILEDETAILS.append(CHANGEPASSWORDDIV)
 
             const DELETACCOUNTDIV=document.createElement('button')
             DELETACCOUNTDIV.classList.add('changepassword-div')
             DELETACCOUNTDIV.innerHTML=`
-                <img class="icons" id="delete-account-icon" src="/icons/trash.png" />
+                <img class="icons" id="delete-account-icon" src="https://yagetpastry.github.io/YagetPastry/icons/trash.png" />
                 <p id="title-changepassword">Delete Account</p>
             `
             USERPROFILEDETAILS.append(DELETACCOUNTDIV)

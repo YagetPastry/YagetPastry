@@ -6,7 +6,7 @@ function PREMIUM() {
     PREMIUMDIV.innerHTML=`
 
         <div class="closebtn-div" onclick="closepremiumdiv()">
-            <img id="closebtn" src="/icons/close_purple.png" />
+            <img id="closebtn" src="https://yagetpastry.github.io/YagetPastry/icons/close_purple.png" />
         </div>
 
         <div class="premium-wrapper">
