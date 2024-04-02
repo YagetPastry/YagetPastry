@@ -1,46 +1,46 @@
 [
     {
         "categoryname": "Cakes",
-        "categoryimage": "redvelvetcake3.jpeg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/redvelvetcake3.jpeg"
     },
     {
         "categoryname": "Bread",
-        "categoryimage": "picspic/bread.jpg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/picspic/bread.jpg"
     },
     {
         "categoryname": "Pizza",
-        "categoryimage": "picspic/pizza2.jpg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/picspic/pizza2.jpg"
     },
     {
         "categoryname": "Samosa",
-        "categoryimage": "Samosa1.jpeg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/Samosa1.jpeg"
     },
     {
         "categoryname": "Cookies",
-        "categoryimage": "cookies2.jpg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/cookies2.jpg"
     },
     {
         "categoryname": "Muffins",
-        "categoryimage": "raspberrymuffins.jpeg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/raspberrymuffins.jpeg"
     },
     {
         "categoryname": "Puff Puff",
-        "categoryimage": "puffpuff.jpeg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/puffpuff.jpeg"
     },
     {
         "categoryname": "Pancakes",
-        "categoryimage": "Pancakes.jpg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/Pancakes.jpg"
     },
     {
         "categoryname": "Chapati",
-        "categoryimage": "chapati1.jpg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/chapati1.jpg"
     },
     {
         "categoryname": "Burgers",
-        "categoryimage": "burger1.jpg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/burger1.jpg"
     },
     {
         "categoryname": "Smoothies",
-        "categoryimage": "smoothie1.jpg"
+        "categoryimage": "https://yagetpastry.github.io/YagetPastry/picspic/smoothie1.jpg"
     }
 ]
