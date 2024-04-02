@@ -11,7 +11,7 @@ function PREMIUM() {
 
         <div class="premium-wrapper">
             <div class="logo-container">
-                <img id="applogo-premium" src="/logo/yagetpastrywithname.png" />
+                <img id="applogo-premium" src="https://yagetpastry.github.io/YagetPastry/logo/yagetpastrywithname.png" />
                 <h1 id="premium-text">Premium</h1>
             </div>
 
