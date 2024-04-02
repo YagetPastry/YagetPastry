@@ -71,7 +71,7 @@ function GOODHEALTH() {
                         //adding back arrow
                         const GOODHEALTHBACKBTN=document.createElement('img')
                         GOODHEALTHBACKBTN.classList.add('goodhealth-backbtn')
-                        GOODHEALTHBACKBTN.src='/icons/arrow-left.png'
+                        GOODHEALTHBACKBTN.src='https://yagetpastry.github.io/YagetPastry/icons/arrow-left.png'
                         GOODHEALTHBACKBTNHOLDER.append(GOODHEALTHBACKBTN)
 
                         //function to close goodhealth main info
