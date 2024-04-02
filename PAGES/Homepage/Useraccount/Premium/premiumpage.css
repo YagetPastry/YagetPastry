@@ -1,0 +1,157 @@
+.premiumdiv{
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    background-color: #576490;
+    bottom: 0;
+}
+.closebtn-div{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #F6ADAD;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 86%;
+    display: inline-flex;
+}
+#closebtn{
+    position: relative;
+    width: 27px;
+    height: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.premium-wrapper{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #F6ADAD;
+    margin-top: 15px;
+    height: 85%;
+    border-radius: 10px;
+}
+.logo-container{
+    position: relative;
+    width: 40%;
+    background-color: transparent;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 10px;
+    display: inline-flex;
+}
+#applogo-premium{
+    position: relative;
+    width: 30px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#premium-text{
+    position: relative;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #576490;
+}
+.premium-messege{
+    position: relative;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 7px;
+    height: auto;
+    background-color: transparent;
+}
+#premium-messege-theme{
+    text-align: center;
+    color: #576490;
+}
+#premium-messege-text{
+    text-align: center;
+    font-size: 15px;
+}
+.subscription-plan-wrapper{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 20px;
+    height: auto;
+}
+.subscription-plan{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    background-color: transparent;
+    height: 60px;
+    display: inline-flex;
+    border: 2px solid #576490;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.subscription-duration{
+    position: relative;
+    width: 40%;
+    background-color: transparent;
+    display: inline-flex;
+    margin-left: 5%;
+}
+.subscription-amount{
+    position: relative;
+    width: 45%;
+    background-color: transparent;
+    margin-left: 5%;
+    display: inline-flex;
+}
+#duration, #bills{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.subscribe-now{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 0px;
+    background-color: #576490;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 10px 10px 10px #3c3c3c;
+}
+#duration-theme{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+#access-details{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 15px;
+}
+
+.subscription-btns-wrapper{
+    width: 90%;
+    left: 5%;
+    background-color: transparent;
+    height: 45px;
+    margin-top: 1.5rem;
+    display: inline-flex;
+    position: relative;
+}
+.subscription-btns{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    font-size: 15px;
+}
+#subscribe{
+    background-color: green;
+}
+#cancel{
+    background-color: red;
+}

@@ -1,0 +1,120 @@
+.goodhealthwrapper{
+    width: 95%;
+    left: 2.5%;
+    background-color: transparent;
+    height: 110px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.goodhealthimg-holder{
+    width: 30%;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+    border-radius: 50px;
+    position: absolute;
+    border: 2px solid #576490;
+}
+.goodhealthimg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.goodhealth-theme{
+    position: absolute;
+    left: 35%;
+    margin-top: 12px;
+    color: #576490;
+    font-size: 16px;
+}
+.goodhealth-themenote{
+    position: absolute;
+    left: 35%;
+    margin-top: 55px;
+    color: white;
+    font-size: 14px;
+}
+
+/*------------------------------------*/
+.goodhealth-container{
+    width: 100%;
+    background-color: #576490;
+    height: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+.back-icon2{
+    position: absolute;
+    background-color: #F6ADAD95;
+    padding: 10px;
+    border-radius: 30px;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 2%;
+    top: 0;
+}
+.goodhealth-themeimgdiv{
+    width: 100%;
+    height: 200px;
+    background-color: hotpink;
+    position: fixed;
+    top: 0;
+    display: block;
+}
+.goodhealth-themeimg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.goodhealth-detailedinfo{
+    width: 100%;
+    height: 100%;
+    background-color: darkgoldenrod;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.goodhealth-detailedinfo-imgholder{
+    width: 100%;
+    height: 200px;
+    background-color: salmon;
+    position: relative;
+}
+.goodhealth-detailedinfo-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.goodhealth-backbtnholder{
+   width: 50px;
+   height: 50px;
+   background-color: #57649010;
+   display: inline-flex;
+   margin-left: 1%;
+   margin-top: 1%;
+   border-radius: 25px;
+   position: absolute;
+   top: 0;
+}
+.goodhealth-backbtn{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 27px;
+}
+.goodhealthdetailed-dataholder{
+    width: 90%;
+    height: auto;
+    bottom: 0;
+    background-color: deeppink;
+    margin-left: 5%;
+    position: relative;
+    margin-top: 15px;
+}

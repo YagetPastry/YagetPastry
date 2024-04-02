@@ -1,0 +1,16 @@
+.didyouknowcontainer{
+    width: 80%;
+    height: 150px;
+    margin-left: 3%;
+    right: 1.5%;
+    background-color: transparent;
+    position: relative;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.didyouknowimg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

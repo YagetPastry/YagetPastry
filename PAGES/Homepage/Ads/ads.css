@@ -1,0 +1,51 @@
+.ads{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: block;
+    background-color: transparent;
+    border-radius: 7px;
+    animation: scrollImages 60s ease 1s infinite;
+}
+@keyframes scrollImages {
+    0% {
+        top: 0; /* Start position */
+    }
+    10% {
+        top: -100%; /* Scroll to the first image */
+    }
+    20% {
+        top: -100%; /* Pause at the first image */
+    }
+    30% {
+        top: -200%; /* Scroll to the second image */
+    }
+    40% {
+        top: -200%; /* Pause at the second image */
+    }
+    /* Repeat the same pattern for the rest of the images */
+    50% {
+        top: -300%;
+    }
+    60% {
+        top: -300%;
+    }
+    70% {
+        top: -400%;
+    }
+    80% {
+        top: -400%;
+    }
+    90% {
+        top: -500%;
+    }
+    100% {
+        top: -500%; /* Last image scrolls off */
+    }
+}
+.ad-image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,136 @@
+.useraccount{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #F6ADAD;
+    box-shadow: 2px 5px 10px 0px #3c3c3c;
+}
+.profile-wrapper{
+    position: relative;
+    width: 100%;
+    height: 140px;
+    background-color: #576490;
+    top: 0;
+}
+.profilepicdiv{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background-color: slateblue;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.profilepic{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.username{
+    position: absolute;
+    top: 25px;
+    right: 3%;
+    font-size: 17px;
+    color: #F6ADAD;
+}
+.edit-profile{
+    position: absolute;
+    width: 40%;
+    height: 30px;
+    right: 15%;
+    top: 65px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F6ADAD;
+    color: #576490;
+    font-size: 15px;
+}
+
+.premium-status{
+    position: absolute;
+    top: 110px;
+    left: 52%;
+    color: #F6ADAD;
+}
+
+.profile-data{
+    position: relative;
+    margin-top: 10px;
+    background-color: transparent;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.community{
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+    height: 40px;
+    background-color: #576490;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-bottom: 1rem;
+}
+.useraccount-more{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    color: #F6ADAD;
+}
+
+.contact-us-wrapper{
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    bottom: 0;
+    height: 80px;
+}
+#inner-app-name{
+    text-align: center;
+    color: #576490;
+}
+#closeaccountdrawer-btn{
+    position: relative;
+    width: 30%;
+    height: 30px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    left: 67%;
+    border: none;
+    border-radius: 5px;
+    background-color: #576490;
+    color: #F6ADAD;
+    font-size: 15px;
+    display: inline-flex;
+}
+#useraccount-icons{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 7%;
+}
+#user-acc-backbtn, #acc-backbtn-text{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #F6ADAD;
+    margin-left: 3%;
+}
+
+.social-media{
+    width: 70%;
+    background-color: transparent;
+    left: 15%;
+    position: absolute;
+    height: 40px;
+    bottom: 7px;
+    display: inline-flex;
+}
+#social-icons{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}

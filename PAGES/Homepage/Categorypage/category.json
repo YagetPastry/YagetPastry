@@ -1,0 +1,46 @@
+[
+    {
+        "categoryname": "Cakes",
+        "categoryimage": "../../../picspic/redvelvetcake3.jpeg"
+    },
+    {
+        "categoryname": "Bread",
+        "categoryimage": "../../../picspic/bread.jpg"
+    },
+    {
+        "categoryname": "Pizza",
+        "categoryimage": "../../../picspic/pizza2.jpg"
+    },
+    {
+        "categoryname": "Samosa",
+        "categoryimage": "../../../picspic/Samosa1.jpeg"
+    },
+    {
+        "categoryname": "Cookies",
+        "categoryimage": "../../../picspic/cookies2.jpg"
+    },
+    {
+        "categoryname": "Muffins",
+        "categoryimage": "../../../picspic/raspberrymuffins.jpeg"
+    },
+    {
+        "categoryname": "Puff Puff",
+        "categoryimage": "../../../picspic/puffpuff.jpeg"
+    },
+    {
+        "categoryname": "Pancakes",
+        "categoryimage": "../../../picspic/Pancakes.jpg"
+    },
+    {
+        "categoryname": "Chapati",
+        "categoryimage": "../../../picspic/chapati1.jpg"
+    },
+    {
+        "categoryname": "Burgers",
+        "categoryimage": "../../../picspic/burger1.jpg"
+    },
+    {
+        "categoryname": "Smoothies",
+        "categoryimage": "../../../picspic/smoothie1.jpg"
+    }
+]

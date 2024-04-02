@@ -1,0 +1,147 @@
+.major{
+    position: fixed;
+    width: 100%;
+    top: 180px;
+    height: auto;
+    background-color: transparent;
+    display: inline-flex;
+    bottom: 0;
+}
+.home-top-nav{
+    width: 100%;
+    display: inline-flex;
+    position: fixed;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 12px;
+}
+#profile-icon{
+    position: fixed;
+    left: 5%;
+}
+#greeting-text{
+    position: fixed;
+    left: 18%;
+}
+#notification-icon{
+    position: fixed;
+    right: 5%;
+}
+.welcoming-text-wrapper{
+    width: 80%;
+    left: 7%;
+    height: auto;
+    position: relative;
+    margin-top: 70px;
+    background-color: transparent;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    font-size: 16px;
+}
+.home-nav{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #576490;
+    height: 40px;
+    display: inline-flex;
+    border-radius: 10px 10px 0px 0px;
+}
+.nav-icons{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/*----------------------------------------------------------------*/
+.home-div{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    background-color: #576490;
+    left: 0;
+}
+
+.quotes-div{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: transparent;
+    margin-top: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.ads-div{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: 200px;
+    background-color: transparent;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: block;
+    overflow: hidden;
+}
+/*----------------------------------------------------------------*/
+.category-div{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    margin-top: 0px;
+    background-color: #576490;
+    left: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+}
+.liked-div{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    background-color: hwb(323 53% 8%);
+    left: 200%;
+}
+/*---------------------------------------------------------------------------------*/
+.health-tips-div{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    background-color: #576490;
+    left: 300%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.did-you-know{
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    height: 150px;
+    margin-top: 10px;
+    display: inline-flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.good-health{
+    width: 100%;
+    position: relative;
+    height: auto;
+    bottom: 0;
+    background-color: #F6ADAD;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+/*---------------------------------------------------------------------------------*/
+.dataholderdiv{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: #F6ADAD;
+    bottom: 0;
+}
