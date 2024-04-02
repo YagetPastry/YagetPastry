@@ -7,6 +7,6 @@ function SPLASHSCREEN() {
         </div>
     `;
     setTimeout(() => {
-        HOMEPAGE()
+        LOGINPAGE()
     }, 2000);
 }
