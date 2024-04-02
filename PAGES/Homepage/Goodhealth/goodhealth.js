@@ -2,7 +2,7 @@ function GOODHEALTH() {
     const GOODHEALTHDIV=document.querySelector('.good-health')
     const GOODHEALTHDATA=document.querySelector('.dataholderdiv')
 
-    fetch('/PAGES/Homepage/Goodhealth/goodhealth.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Goodhealth/goodhealth.json')
     .then(res=>res.json())
     .then(data=>{
         data.forEach(element => {
@@ -47,7 +47,7 @@ function GOODHEALTH() {
 
                 const GOODHEALTHDETAILEDINFO=document.querySelector('.goodhealth-detailedinfo')
                 //fetching goodhealth detailed info
-                fetch('/PAGES/Homepage/Goodhealth/goodhealthdata.json')
+                fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Goodhealth/goodhealthdata.json')
                 .then(res=>res.json())
                 .then(data=>{
                     data.forEach(element => {

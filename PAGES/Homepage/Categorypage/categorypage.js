@@ -2,7 +2,7 @@ function CATEGORYPAGE() {
     const CATEGORYDIV=document.querySelector('#category-div');
     const DATAHOLDERDIV=document.querySelector('.dataholderdiv');
 
-    fetch('/PAGES/Homepage/Categorypage/category.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Categorypage/category.json')
     .then(res=>res.json())
     .then(data=>{
         data.forEach(element => {
@@ -42,7 +42,7 @@ function CATEGORYPAGE() {
 
                 const RECIPEDATA=document.querySelector('.recipes-container');
                 //to fetch cakes data
-                fetch('/PAGES/Homepage/Categorypage/recipes.json')
+                fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Categorypage/recipes.json')
                 .then(res=>res.json())
                 .then(data=>{
                     data.forEach(element => {

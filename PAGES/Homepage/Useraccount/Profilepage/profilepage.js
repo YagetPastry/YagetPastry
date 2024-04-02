@@ -13,7 +13,7 @@ function PROFILEPAGE() {
 
     const PROFILE=document.querySelector('.profile');
 
-    fetch('/PAGES/Homepage/Useraccount/Profilepage/profilepage.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Useraccount/Profilepage/profilepage.json')
     .then(res=>res.json())
     .then(data=>{
         data.forEach(element => {
@@ -61,7 +61,7 @@ function PROFILEPAGE() {
 
     const USERPROFILEDETAILS=document.querySelector('.userprofile-details');
 
-    fetch('/PAGES/Homepage/Useraccount/Profilepage/profiledetails.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Useraccount/Profilepage/profiledetails.json')
     .then(res=>res.json())
     .then(data=>{
         data.forEach(element => {

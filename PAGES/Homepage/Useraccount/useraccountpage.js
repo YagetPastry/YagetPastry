@@ -5,7 +5,7 @@ function USERACCOUNTPAGE() {
 
     USERACCOUNTPAGE.style.width='80%';
 
-    fetch('/PAGES/Homepage/Useraccount/useraccount.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Useraccount/useraccount.json')
     .then(res=>res.json())
     .then(data=>{
         

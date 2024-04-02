@@ -1,7 +1,7 @@
 function DIDYOUKNOW() {
     const DIDYOUKNOWDIV=document.querySelector('.did-you-know')
 
-    fetch('/PAGES/Homepage/Didyouknow/didyouknow.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Didyouknow/didyouknow.json')
     .then(res=>res.json())
     .then(data=>{
         data.forEach(element => {

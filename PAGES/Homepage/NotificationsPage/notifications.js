@@ -15,7 +15,7 @@ function NOTIFICATIONSPAGE() {
     `;
 
     const ALLNOTIFICATIONSHOLDER=document.querySelector('.allnotifications-holder');
-    fetch('/PAGES/Homepage/NotificationsPage/notifications.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/NotificationsPage/notifications.json')
     .then(res=>res.json())
     .then(data=>{
         data.forEach(element => {

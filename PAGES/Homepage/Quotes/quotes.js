@@ -1,7 +1,7 @@
 function QUOTES() {
     const QOUTESDIV=document.querySelector('.quotes-div');
 
-    fetch('/PAGES/Homepage/Quotes/quotes.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Quotes/quotes.json')
     .then(res=>res.json())
     .then(data=>{
         data.forEach(element => {

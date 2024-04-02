@@ -1,7 +1,7 @@
 function ADS() {
     const ADSDIV=document.querySelector('.ads-div');
 
-    fetch('/PAGES/Homepage/Ads/ads.json')
+    fetch('https://yagetpastry.github.io/YagetPastry/PAGES/Homepage/Ads/ads.json')
     .then(res=>res.json())
     .then(data=>{
         data.forEach(element => {
